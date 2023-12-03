@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    height: 300px;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    padding: 1em;
+}
+
+.card h3{
+    background-color: rebeccapurple;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.icons{
+    display: flex;
+ align-items: center;
+    justify-content: flex-end;
+    padding-right: 1em;
+}
+
+.project-details h4{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 1em;
+}
+
+.project-details p {
+    padding-left: 1em;
+}
+
+.project-details svg{
+    width: 30px;
+}
+
+.more-details img{
+    filter: brightness(0%);
+    width: 30px;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: aquamarine    ;
+}
+
+.contact-me h3, body h2{
+    text-align: center;
+}
+
+.details-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1em;
+
+}
+
+.contact-icons img{
+    filter: brightness(0%);
+    width: 30px;
+}
+
+.contact-image img{
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}
+
+
